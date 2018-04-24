@@ -1,5 +1,6 @@
 
 var OSinfo = require('../modules/OSINFO');
+var calcTime = require('../modules/time');
 
 function getOSinfo() {
     var type = os.type();
