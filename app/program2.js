@@ -1,5 +1,6 @@
-
-//1. enkodowanie
+//importowanie modułu
+var OSinfo = require('../modules/OSINFO');
+//1. ustawienie odpowiedniego enkodowania przyjmowanych danych --> Bez tego informacje, które przekazujemy do aplikacji będą odczytywane jako dane szesnastkowe
 process.stdin.setEncoding('utf-8');
 //2. nasłuchiwanie na zdarzenia odczytu
 process.stdin.on('readable', function() {
